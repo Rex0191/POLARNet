@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lbm"
+dynamic = ["dependencies", "optional-dependencies"]
+description = "LBM: Latent Bridge Matching for Fast Image-to-Image Translation"
+readme = "Readme.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Clement Chadebec", email = "clement.chadebec@jasper.ai" },
+    { name = "Benjamin Aubin", email = "benjamin.aubin@jasper.ai" },
+]
+maintainers = [
+    { name = "Clement Chadebec", email = "clement.chadebec@jasper.ai" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+version = "0.1"
+
+[project.urls]
+Homepage = "https://github.com/gojasper/LBM"
+Repository = "https://github.com/gojasper/LBM"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lbm"]

@@ -1,0 +1,9 @@
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.zip
+*.hdr
+*.bin
+*.exr
+outputs/*
