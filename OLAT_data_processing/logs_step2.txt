@@ -1,0 +1,313 @@
+[INFO] 总共 2 个相机目录待处理
+[INFO] 子进程处理 /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11, 环境光 50 张
+[INFO] 自动推导 out_dir: /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000002_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000003_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000004_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000006_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000007_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000008_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000015_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000016_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000017_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000018_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000019_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000021_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000029_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000030_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000031_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000032_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000033_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000034_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000035_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000036_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000038_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000042_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000044_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000045_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000046_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000047_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000048_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000049_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000050_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000051_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000052_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000053_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000054_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000055_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000056_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000057_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000058_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000072_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000073_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000074_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000075_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000076_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000077_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000078_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000079_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000080_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000081_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000082_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000083_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000084_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000086_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000087_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000088_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000089_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000090_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000091_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000092_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000093_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000094_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000095_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000096_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000097_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000098_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000099_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000100_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000112_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000113_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000114_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000115_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000116_proc.jpg not found, skip.
+[INFO] 子进程处理 /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11, 环境光 50 张
+[INFO] 自动推导 out_dir: /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000002_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000003_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000004_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000006_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000007_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000008_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000015_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000016_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000017_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000018_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000019_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000021_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000029_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000030_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000031_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000032_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000033_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000034_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000035_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000036_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000038_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000042_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000044_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000045_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000046_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000047_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000048_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000049_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000050_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000051_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000052_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000053_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000054_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000055_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000056_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000057_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000058_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000072_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000073_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000074_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000075_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000076_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000077_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000078_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000079_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000080_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000081_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000082_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000083_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000084_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000086_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000087_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000088_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000089_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000090_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000091_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000092_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000093_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000094_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000095_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000096_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000097_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000098_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000099_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000100_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000112_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000113_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000114_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000115_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000116_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000117_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000118_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000119_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000120_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000121_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000122_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000123_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000124_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000125_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000126_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000128_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000129_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000131_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000132_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000133_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000134_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000135_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000136_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000143_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000144_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000145_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000146_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000147_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000149_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000150_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000151_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000153_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000154_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000155_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000156_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11/000157_proc.jpg not found, skip.
+[INFO] 未指定 envmap_dir，将由外部传入 self.envmaps
+[INFO] 找到 0 个环境图
+✅ royal_esplanade_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/royal_esplanade_1k_composite.png
+✅ fireplace_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/fireplace_1k_composite.png
+✅ mpumalanga_veld_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/mpumalanga_veld_puresky_1k_composite.png
+✅ qwantani_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/qwantani_1k_composite.png
+✅ horn-koppe_spring_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/horn-koppe_spring_1k_composite.png
+✅ citrus_orchard_road_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/citrus_orchard_road_puresky_1k_composite.png
+✅ qwantani_patio_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/qwantani_patio_1k_composite.png
+✅ small_empty_room_2_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/small_empty_room_2_1k_composite.png
+✅ blocky_photo_studio_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/blocky_photo_studio_1k_composite.png
+✅ pretville_cinema_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/pretville_cinema_1k_composite.png
+✅ herkulessaulen_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/herkulessaulen_1k_composite.png
+✅ missile_launch_facility_01_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/missile_launch_facility_01_1k_composite.png
+✅ studio_small_06_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/studio_small_06_1k_composite.png
+✅ wasteland_clouds_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/wasteland_clouds_puresky_1k_composite.png
+✅ winter_lake_01_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/winter_lake_01_1k_composite.png
+✅ abandoned_slipway_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/abandoned_slipway_1k_composite.png
+✅ monbachtal_riverbank_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/monbachtal_riverbank_1k_composite.png
+✅ straw_rolls_field_01_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/straw_rolls_field_01_1k_composite.png
+✅ abandoned_church_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/abandoned_church_1k_composite.png
+✅ christmas_photo_studio_05_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/christmas_photo_studio_05_1k_composite.png
+✅ wasteland_clouds_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/wasteland_clouds_1k_composite.png
+✅ kloofendal_28d_misty_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/kloofendal_28d_misty_1k_composite.png
+✅ netball_court_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/netball_court_1k_composite.png
+✅ docklands_01_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/docklands_01_1k_composite.png
+✅ drakensberg_solitary_mountain_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/drakensberg_solitary_mountain_puresky_1k_composite.png
+✅ christmas_photo_studio_03_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/christmas_photo_studio_03_1k_composite.png
+✅ hilly_terrain_01_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/hilly_terrain_01_puresky_1k_composite.png
+✅ christmas_photo_studio_07_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/christmas_photo_studio_07_1k_composite.png
+✅ hikers_cave_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/hikers_cave_1k_composite.png
+✅ safari_sunset_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/safari_sunset_1k_composite.png
+✅ small_cathedral_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/small_cathedral_02_1k_composite.png
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000117_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000118_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000119_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000120_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000121_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000122_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000123_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000124_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000125_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000126_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000128_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000129_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000131_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000132_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000133_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000134_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000135_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000136_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000143_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000144_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000145_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000146_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000147_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000149_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000150_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000151_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000153_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000154_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000155_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000156_proc.jpg not found, skip.
+[WARN] /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11/000157_proc.jpg not found, skip.
+[INFO] 未指定 envmap_dir，将由外部传入 self.envmaps
+[INFO] 找到 0 个环境图
+✅ kloppenheim_07_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/kloppenheim_07_puresky_1k_composite.png
+✅ je_gray_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/je_gray_02_1k_composite.png
+✅ abandoned_greenhouse_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/abandoned_greenhouse_1k_composite.png
+✅ blinds_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/blinds_1k_composite.png
+✅ quarry_01_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/quarry_01_puresky_1k_composite.png
+✅ golden_bay_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/golden_bay_1k_composite.png
+✅ snow_field_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/snow_field_puresky_1k_composite.png
+✅ small_empty_room_1_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/small_empty_room_1_1k_composite.png
+✅ blocky_photo_studio_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/blocky_photo_studio_1k_composite.png
+✅ wrestling_gym_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/wrestling_gym_1k_composite.png
+✅ soliltude_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/soliltude_1k_composite.png
+✅ aviation_museum_hill_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/aviation_museum_hill_1k_composite.png
+✅ factory_yard_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/factory_yard_1k_composite.png
+✅ reinforced_concrete_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/reinforced_concrete_02_1k_composite.png
+✅ lilienstein_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/lilienstein_1k_composite.png
+✅ bloem_hill_03_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/bloem_hill_03_1k_composite.png
+✅ interior_construction_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/interior_construction_1k_composite.png
+✅ museum_of_history_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/museum_of_history_1k_composite.png
+✅ hall_of_mammals_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/hall_of_mammals_1k_composite.png
+✅ wooden_motel_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/wooden_motel_1k_composite.png
+✅ klippad_dawn_2_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/klippad_dawn_2_1k_composite.png
+✅ warm_restaurant_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/warm_restaurant_1k_composite.png
+✅ drachenfels_cellar_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/drachenfels_cellar_1k_composite.png
+✅ leibstadt_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/leibstadt_1k_composite.png
+✅ abandoned_slipway_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/abandoned_slipway_1k_composite.png
+✅ symmetrical_garden_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/symmetrical_garden_02_1k_composite.png
+✅ basement_boxing_ring_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/basement_boxing_ring_1k_composite.png
+✅ forest_cave_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/forest_cave_1k_composite.png
+✅ mpumalanga_veld_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/mpumalanga_veld_1k_composite.png
+✅ moonless_golf_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/moonless_golf_1k_composite.png
+✅ pizzo_pernice_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/pizzo_pernice_puresky_1k_composite.png
+✅ kloppenheim_06_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/kloppenheim_06_1k_composite.png
+✅ red_hill_curve_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/red_hill_curve_1k_composite.png
+✅ qwantani_noon_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/qwantani_noon_1k_composite.png
+✅ lakeside_night_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/lakeside_night_1k_composite.png
+✅ wide_street_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/wide_street_02_1k_composite.png
+✅ niederwihl_forest_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/niederwihl_forest_1k_composite.png
+✅ hospital_room_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/hospital_room_1k_composite.png
+✅ blender_institute_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/blender_institute_1k_composite.png
+✅ dam_wall_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/dam_wall_1k_composite.png
+✅ greenwich_park_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/greenwich_park_02_1k_composite.png
+✅ pump_house_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/pump_house_1k_composite.png
+✅ citrus_orchard_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/citrus_orchard_puresky_1k_composite.png
+✅ farm_field_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/farm_field_1k_composite.png
+✅ hangar_interior_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/hangar_interior_1k_composite.png
+✅ snowy_forest_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/snowy_forest_1k_composite.png
+✅ kloofendal_misty_morning_puresky_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/kloofendal_misty_morning_puresky_1k_composite.png
+✅ zwartkops_pit_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/zwartkops_pit_1k_composite.png
+✅ victoria_curve_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/victoria_curve_02_1k_composite.png
+✅ sterkspruit_falls_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/sterkspruit_falls_1k_composite.png
+✅ industrial_pipe_and_valve_02_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_13/OLAT_WILD/C11/industrial_pipe_and_valve_02_1k_composite.png
+✅ narrow_moonlit_road_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/narrow_moonlit_road_1k_composite.png
+✅ laufenurg_church_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/laufenurg_church_1k_composite.png
+✅ rooftop_day_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/rooftop_day_1k_composite.png
+✅ victoria_sunset_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/victoria_sunset_1k_composite.png
+✅ dry_hay_field_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/dry_hay_field_1k_composite.png
+✅ goegap_road_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/goegap_road_1k_composite.png
+✅ subway_entrance_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/subway_entrance_1k_composite.png
+✅ red_hill_straight_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/red_hill_straight_1k_composite.png
+✅ studio_garden_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/studio_garden_1k_composite.png
+✅ small_harbour_sunset_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/small_harbour_sunset_1k_composite.png
+✅ kloppenheim_03_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/kloppenheim_03_1k_composite.png
+✅ lythwood_terrace_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/lythwood_terrace_1k_composite.png
+✅ gum_trees_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/gum_trees_1k_composite.png
+✅ abandoned_hall_01_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/abandoned_hall_01_1k_composite.png
+✅ old_depot_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/old_depot_1k_composite.png
+✅ venice_sunrise_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/venice_sunrise_1k_composite.png
+✅ kiara_2_sunrise_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/kiara_2_sunrise_1k_composite.png
+✅ ostrich_road_1k -> /mnt/bn/idl-data-cache/cz/data/OLAT_papers/for_segmentation/man_14/OLAT_WILD/C11/ostrich_road_1k_composite.png
+✅ 完成 /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_13/OLAT_WILD/C11
+✅ 完成 /mnt/bn/idl-data-cache/cz/data/OLAT_papers/ori_OLAT/man_14/OLAT_WILD/C11

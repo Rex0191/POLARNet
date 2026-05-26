@@ -1,0 +1,9442 @@
+[
+  {
+    "name": "crisp_h2_001_amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1435933387613164,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.1435933387613164,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_002_red-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.1538501174692195,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.1538501174692195,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_003_amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.3681010200169634,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.3681010200169634,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_004_cyan-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.5260433094646846,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.5260433094646846,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_005_teal-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.2686083285546377,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2686083285546377,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_006_cyan-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.18188842237618,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.18188842237618,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_007_red-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.539315168550609,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.539315168550609,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_008_red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.1032975201139563,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.1032975201139563,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_009_red-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.5526993261422497,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.5526993261422497,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_010_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.1631248496102984,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.1631248496102984,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_011_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.5555752740451605,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.5555752740451605,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_012_blue-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.2326608526307816,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.2326608526307816,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_013_amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.2717310790779823,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.2717310790779823,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_014_green-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.5106360622082002,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.5106360622082002,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_015_blue-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.1062740459972553,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.1062740459972553,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_016_blue-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.442418609330503,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.442418609330503,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_017_blue-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.3603045019077893,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.3603045019077893,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_018_red-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.3550331094557095,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.3550331094557095,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_019_blue-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.462913920805567,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.462913920805567,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_020_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.4290370787005395,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.4290370787005395,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_021_teal-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.268458076395853,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.268458076395853,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_022_red-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.46155666208553,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.46155666208553,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_023_red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.1081541470775824,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1081541470775824,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_024_blue-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.5158019335132744,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.5158019335132744,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_025_cyan-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.548074777990258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.548074777990258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_026_magenta-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.3659987453408826,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.3659987453408826,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_027_amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.595896549875958,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.595896549875958,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_028_blue-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.3720850537859333,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.3720850537859333,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_029_teal-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.5959788863971087,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.5959788863971087,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_030_red-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.4758250790137653,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.4758250790137653,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_031_amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.167363800318317,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.167363800318317,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_032_magenta-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.2281811736482715,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.2281811736482715,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_033_cyan-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.5773360581482523,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.5773360581482523,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_034_blue-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.100177666949558,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.100177666949558,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_035_blue-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.3551601393336856,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.3551601393336856,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_036_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.3166001569385806,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.3166001569385806,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_037_amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.1367419963575265,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.1367419963575265,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_038_blue-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.114568436836258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.114568436836258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_039_cyan-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.5778830463905287,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.5778830463905287,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_040_amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.307035792426642,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.307035792426642,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_041_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.541940069061445,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.541940069061445,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_042_red-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.4588589536760805,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.4588589536760805,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_043_teal-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.434380418937517,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.434380418937517,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_044_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.4790314663898054,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.4790314663898054,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_045_red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.173069616830804,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.173069616830804,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_046_blue-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.488066484912019,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.488066484912019,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_047_red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.1632349794168793,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1632349794168793,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_048_cyan-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.4148088126137917,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.4148088126137917,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_049_blue-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.3160911264347126,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.3160911264347126,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_050_teal-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.4342235685162708,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.4342235685162708,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_051_cyan-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.5355386038811694,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.5355386038811694,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_052_red-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.3145043864515022,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.3145043864515022,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_053_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.360795385855646,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.360795385855646,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_054_green-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.271785438433746,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.271785438433746,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_055_teal-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.2124521378183126,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.2124521378183126,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_056_blue-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.1464284430136957,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1464284430136957,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_057_green-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2016360256317804,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.2016360256317804,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_058_cyan-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.299085090469661,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.299085090469661,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_059_green-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.578063271183874,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.578063271183874,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_060_green-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.479057567548994,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.479057567548994,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_061_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.2341248995237963,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.2341248995237963,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_062_magenta-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.400050937820331,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.400050937820331,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_063_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.3772673537495805,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.3772673537495805,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_064_teal-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.4930400271039193,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.4930400271039193,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_065_green-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.4652801640270505,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.4652801640270505,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_066_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.4568816253273824,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.4568816253273824,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_067_blue-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.270260870441099,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.270260870441099,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_068_magenta-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.4048754432603077,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.4048754432603077,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_069_amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.271697280167722,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.271697280167722,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_070_blue-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.445634821997715,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.445634821997715,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_071_cyan-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.2809205374035364,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.2809205374035364,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_072_red-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.2793352783344476,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.2793352783344476,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_073_red-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.5057302205030396,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.5057302205030396,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_074_magenta-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.291187247549111,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.291187247549111,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_075_amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.2876675393450068,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.2876675393450068,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_076_magenta-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.5281657433473708,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.5281657433473708,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_077_red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.1345796157482373,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1345796157482373,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_078_cyan-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.5541063393109145,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.5541063393109145,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_079_green-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.1274557878979334,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.1274557878979334,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_h2_080_red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.39298447217203,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.39298447217203,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_001_cyan-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.3327740549055127,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.3327740549055127,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_002_cyan-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.4234179185532887,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.4234179185532887,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_003_magenta-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.381383252037768,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 28.0,
+        "intensity": 2.381383252037768,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_004_cyan-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.574394145199911,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.574394145199911,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_005_red-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.2685891596781262,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.2685891596781262,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_006_amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.1616696812954257,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.1616696812954257,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_007_red-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.466881259277051,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.466881259277051,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_008_green-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.3351539805462,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.3351539805462,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_009_green-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2629205117764597,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.2629205117764597,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_010_cyan-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.3988452384767647,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.3988452384767647,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_011_amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.3520581293835585,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.3520581293835585,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_012_blue-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.4528744376454683,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.4528744376454683,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_013_amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.464922163585204,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.464922163585204,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_014_magenta-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.535793575843282,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.535793575843282,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_015_cyan-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.597715072393629,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.597715072393629,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_016_cyan-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.121703178461859,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.121703178461859,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_017_amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.43688492761839,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.43688492761839,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_018_magenta-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.2347248946308054,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.2347248946308054,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_019_teal-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.2513764020049525,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2513764020049525,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_020_red-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.2412235145561787,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.2412235145561787,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_021_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.3213562079253096,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.3213562079253096,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_022_green-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.503687276673685,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.503687276673685,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_023_green-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.417744001520396,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.417744001520396,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_024_red-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.4988842583876765,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.4988842583876765,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_025_red-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.130075950808852,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.130075950808852,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_026_red-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.3586457407342873,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.3586457407342873,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_027_teal-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.167280255982503,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.167280255982503,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_028_magenta-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.5861987905113275,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.5861987905113275,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_029_magenta-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.136719960732947,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.136719960732947,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_030_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.306111560226282,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.306111560226282,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_031_cyan-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.1209208500559336,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.1209208500559336,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_032_magenta-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.4494126733071475,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 28.0,
+        "intensity": 2.4494126733071475,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_033_teal-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.15635974661465,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.15635974661465,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_034_blue-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.2060055550765068,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.2060055550765068,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_035_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.493038441065232,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.493038441065232,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_036_red-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.307144175552017,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.307144175552017,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_037_green-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.2953367425519433,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.2953367425519433,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_038_magenta-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.1385343096542018,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.1385343096542018,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_039_green-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.243392902386273,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.243392902386273,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_040_green-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.1629893992915914,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.1629893992915914,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_041_red-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.3759001054413975,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.3759001054413975,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_042_amber-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.3604361301399996,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.3604361301399996,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_043_cyan-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.2066867239422585,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.2066867239422585,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_044_amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.354260029009359,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.354260029009359,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_045_teal-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.468068229715416,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.468068229715416,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_046_magenta-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.189898327062986,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.189898327062986,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_047_teal-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.1702862361496584,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.1702862361496584,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_048_amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.494416849292894,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.494416849292894,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_049_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1161455500804314,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.1161455500804314,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_050_teal-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.3288031519584558,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.3288031519584558,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_051_magenta-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 28.0,
+        "intensity": 2.1298127347840734,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 28.0,
+        "intensity": 2.1298127347840734,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_052_teal-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.3306672956634196,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.3306672956634196,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_053_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.4341748045428786,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.4341748045428786,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_054_cyan-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.578038463041255,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.578038463041255,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_055_magenta-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.2175665176837707,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.2175665176837707,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_056_red-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.4357930039726443,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.4357930039726443,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_057_amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.245842847702585,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.245842847702585,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_058_red-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.4934461631957543,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.4934461631957543,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_059_amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.375083244087558,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.375083244087558,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_060_teal-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.2440339879485713,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.2440339879485713,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_061_teal-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.492494007516248,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.492494007516248,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_062_blue-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.558081191110879,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.558081191110879,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_063_green-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.285305471070441,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.285305471070441,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_064_teal-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 28.0,
+        "intensity": 2.538405331347964,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.538405331347964,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_065_blue-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.2749276493246615,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.2749276493246615,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_066_amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.353181221927895,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.353181221927895,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_067_amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1399424634073765,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.1399424634073765,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_068_teal-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.3223591016982015,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.3223591016982015,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_069_teal-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.299535901229477,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.299535901229477,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_070_amber-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.2026712682928804,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2026712682928804,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_071_cyan-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 28.0,
+        "intensity": 2.489010297063239,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 28.0,
+        "intensity": 2.489010297063239,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_072_cyan-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.2936446801823185,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.2936446801823185,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_073_magenta-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.4821862560277825,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.4821862560277825,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_074_blue-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.4900498866762053,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.4900498866762053,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_075_cyan-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.150406661392684,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.150406661392684,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_076_blue-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.23522516981235,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.23522516981235,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_077_amber-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.1283905152777827,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.1283905152777827,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_078_magenta-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.1650455886575273,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.1650455886575273,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_079_red-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.410539134815272,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.410539134815272,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_v2_080_green-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.4331154418547998,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.4331154418547998,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_001_amber-magenta-green-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.3783731707743443,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 2.3783731707743443,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.3783731707743443,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.3783731707743443,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_002_amber-blue-green-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.3186566561023048,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.3186566561023048,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.3186566561023048,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.3186566561023048,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_003_blue-magenta-teal-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 1.900174199846981,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 1.900174199846981,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 1.900174199846981,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 1.900174199846981,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_004_teal-blue-amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.301470887836717,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.301470887836717,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.301470887836717,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.301470887836717,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_005_amber-teal-red-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 1.9840740158311732,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 1.9840740158311732,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 1.9840740158311732,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 26.0,
+        "intensity": 1.9840740158311732,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_006_cyan-magenta-amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 2.295616853866567,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 20.0,
+        "intensity": 2.295616853866567,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 20.0,
+        "intensity": 2.295616853866567,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.295616853866567,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_007_cyan-magenta-red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.337513538861023,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.337513538861023,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.337513538861023,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.337513538861023,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_008_magenta-red-green-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 20.0,
+        "intensity": 2.2327911874103044,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.2327911874103044,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 20.0,
+        "intensity": 2.2327911874103044,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 20.0,
+        "intensity": 2.2327911874103044,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_009_magenta-blue-teal-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.1487469987756267,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.1487469987756267,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.1487469987756267,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.1487469987756267,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_010_cyan-amber-teal-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 2.1749398358999814,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 20.0,
+        "intensity": 2.1749398358999814,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 20.0,
+        "intensity": 2.1749398358999814,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.1749398358999814,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_011_blue-amber-cyan-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.184672005915421,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.184672005915421,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 26.0,
+        "intensity": 2.184672005915421,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 26.0,
+        "intensity": 2.184672005915421,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_012_blue-cyan-red-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 20.0,
+        "intensity": 2.372417380030951,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 2.372417380030951,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.372417380030951,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 20.0,
+        "intensity": 2.372417380030951,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_013_blue-teal-amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 20.0,
+        "intensity": 2.3694622774978473,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 20.0,
+        "intensity": 2.3694622774978473,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 20.0,
+        "intensity": 2.3694622774978473,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 2.3694622774978473,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_014_magenta-green-amber-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 20.0,
+        "intensity": 1.9780926415894589,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 20.0,
+        "intensity": 1.9780926415894589,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 20.0,
+        "intensity": 1.9780926415894589,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 20.0,
+        "intensity": 1.9780926415894589,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_015_green-red-amber-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 26.0,
+        "intensity": 2.298586119455258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 26.0,
+        "intensity": 2.298586119455258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 26.0,
+        "intensity": 2.298586119455258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 26.0,
+        "intensity": 2.298586119455258,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_016_cyan-red-blue-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.2214609759220947,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.2214609759220947,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.2214609759220947,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.2214609759220947,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_017_cyan-blue-amber-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 2.007996248275923,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 20.0,
+        "intensity": 2.007996248275923,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 20.0,
+        "intensity": 2.007996248275923,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.007996248275923,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_018_green-blue-teal-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.155053324329859,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.155053324329859,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.155053324329859,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.155053324329859,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_019_green-magenta-blue-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.1667551097614313,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.1667551097614313,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 22.0,
+        "intensity": 2.1667551097614313,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.1667551097614313,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_cross4_020_blue-green-red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          35.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 20.0,
+        "intensity": 2.345140505508879,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bottom",
+        "theta_deg_phi_deg": [
+          145.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 20.0,
+        "intensity": 2.345140505508879,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "left",
+        "theta_deg_phi_deg": [
+          80.0,
+          90.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.345140505508879,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "right",
+        "theta_deg_phi_deg": [
+          80.0,
+          270.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 20.0,
+        "intensity": 2.345140505508879,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_001_red-green-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.27944580836898,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.27944580836898,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.27944580836898,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_002_green-red-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.3551767917545368,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.3551767917545368,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.3551767917545368,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_003_teal-green-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 1.914725440635024,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 1.914725440635024,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 1.914725440635024,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_004_magenta-cyan-blue",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 24.0,
+        "intensity": 2.2700694377877437,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.2700694377877437,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.2700694377877437,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_005_blue-red-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.226127811469497,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.226127811469497,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.226127811469497,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_006_magenta-teal-green",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 20.0,
+        "intensity": 2.0874470079406633,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 20.0,
+        "intensity": 2.0874470079406633,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 20.0,
+        "intensity": 2.0874470079406633,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_007_red-amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.2771796204946,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 22.0,
+        "intensity": 2.2771796204946,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.2771796204946,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_008_green-teal-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2090232985944946,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.2090232985944946,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.2090232985944946,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_009_teal-red-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 20.0,
+        "intensity": 2.153240137098843,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.153240137098843,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 2.153240137098843,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_010_green-amber-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2779769213189525,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.2779769213189525,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.2779769213189525,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_011_green-red-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 22.0,
+        "intensity": 2.057651722199384,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 22.0,
+        "intensity": 2.057651722199384,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.057651722199384,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_012_red-green-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 24.0,
+        "intensity": 2.385042930645565,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.385042930645565,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.385042930645565,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_013_magenta-green-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 20.0,
+        "intensity": 2.017638994388707,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 20.0,
+        "intensity": 2.017638994388707,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 2.017638994388707,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_014_green-blue-amber",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.1578864720135034,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.1578864720135034,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "amber",
+        "size_deg": 24.0,
+        "intensity": 2.1578864720135034,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_015_blue-teal-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 20.0,
+        "intensity": 1.9701515754579384,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 20.0,
+        "intensity": 1.9701515754579384,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 20.0,
+        "intensity": 1.9701515754579384,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_016_blue-green-teal",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "blue",
+        "size_deg": 24.0,
+        "intensity": 2.2429459758080963,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.2429459758080963,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.2429459758080963,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_017_green-teal-red",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 20.0,
+        "intensity": 2.1543156331509854,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 20.0,
+        "intensity": 2.1543156331509854,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 2.1543156331509854,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_018_green-teal-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 24.0,
+        "intensity": 2.234303531815264,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 24.0,
+        "intensity": 2.234303531815264,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 24.0,
+        "intensity": 2.234303531815264,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_019_cyan-teal-magenta",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 22.0,
+        "intensity": 2.393575214135274,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "teal",
+        "size_deg": 22.0,
+        "intensity": 2.393575214135274,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "magenta",
+        "size_deg": 22.0,
+        "intensity": 2.393575214135274,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  },
+  {
+    "name": "crisp_three_020_red-green-cyan",
+    "base_level": 0.0,
+    "base_tint": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "res": [
+      2048,
+      1024
+    ],
+    "recipe": [
+      {
+        "label": "top",
+        "theta_deg_phi_deg": [
+          30.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "red",
+        "size_deg": 20.0,
+        "intensity": 1.93344426835655,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      },
+      {
+        "label": "mid",
+        "theta_deg_phi_deg": [
+          80.0,
+          0.0
+        ],
+        "palette": "rgb_primaries",
+        "color_key": "green",
+        "size_deg": 20.0,
+        "intensity": 1.93344426835655,
+        "shape": "rect",
+        "aspect": 300.0,
+        "softness": 0.25
+      },
+      {
+        "label": "bot",
+        "theta_deg_phi_deg": [
+          150.0,
+          180.0
+        ],
+        "palette": "gel_cinema",
+        "color_key": "cyan",
+        "size_deg": 20.0,
+        "intensity": 1.93344426835655,
+        "shape": "rect",
+        "aspect": 200.0,
+        "softness": 0.25
+      }
+    ]
+  }
+]

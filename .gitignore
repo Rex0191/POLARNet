@@ -6,4 +6,4 @@
 *.hdr
 *.bin
 *.exr
-outputs/*
+outputs/*.DS_Store

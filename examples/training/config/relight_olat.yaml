@@ -16,9 +16,9 @@ latent_loss_weight: 1.0
 bridge_noise_sigma: 0.001
 
 # ========= 数据路径（需要你手动替换成自己的路径） =========
-composite_root: /mnt/bn/idl-data-cache/cz/data/OLAT_final/synthetic_light_olat_48   # 合成图/输入图
-hdr_root: /mnt/bn/pico-idl-avatar2/cz/OLAT/data/OLAT_EnvMaps_HDR_128        # HDR 环境图
-alpha_root: /mnt/bn/idl-data-cache/cz/data/OLAT_final/alpha_data          # mask / alpha 通道
+composite_root: your_path/data/OLAT_final/synthetic_light_olat_48   # 合成图/输入图
+hdr_root: your_path/data/OLAT_EnvMaps_HDR_128        # HDR 环境图
+alpha_root: your_path/data/OLAT_final/alpha_data          # mask / alpha 通道
 
 # ========= WebDataset 相关在 relight 里不用，可以留空 =========
 train_shards: []
@@ -33,4 +33,4 @@ log_interval: 500
 resume_from_checkpoint: true
 max_epochs: 50
 save_interval: 10000
-save_ckpt_path: /mnt/bn/idl-data-cache/cz/LBM/checkpoints_relight_1105_res_olat_copy
+save_ckpt_path: your_path/checkpoints

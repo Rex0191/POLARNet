@@ -1,4 +1,4 @@
-export HF_HOME=/mnt/bn/pico-idl-avatar2/cz/LBM/hugging_face
+export HF_HOME=your_path/hugging_face
 export HF_ENDPOINT=https://hf-mirror.com
 
 export SLURM_JOB_ID=local

@@ -1,16 +1,15 @@
 #!/bin/bash
 # infer_relit.sh
 # 批量或单张运行 relighting 推理
-# Author: ChatGPT (SJTU version)
 
 # ===== 环境配置 =====
-export HF_HOME=/mnt/bn/pico-idl-avatar2/cz/LBM/hugging_face
+export HF_HOME=your_path/hugging_face
 export HF_ENDPOINT=https://hf-mirror.com
 
 # ===== 输入输出路径 =====
-INPUT_DIR="/mnt/bn/idl-data-cache/cz/LBM/examples/inference/ckpts/relighting/assets/woman_4"
-MASK_DIR="/mnt/bn/idl-data-cache/cz/LBM/examples/inference/ckpts/relighting/assets/mask_resized"
-OUTPUT_DIR="/mnt/bn/idl-data-cache/cz/LBM/examples/inference/ckpts/olat/assets/show_woman_4_test"
+INPUT_DIR="examples/inference/ckpts/relighting/assets/input_woman_4"
+MASK_DIR=examples/inference/ckpts/relighting/assets/mask_woman_4"
+OUTPUT_DIR="examples/inference/ckpts/olat/assets/olat_woman_4"
 
 # ===== 推理参数 =====
 MODEL_NAME="olat"

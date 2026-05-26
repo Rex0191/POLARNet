@@ -1,0 +1,4 @@
+[Done] Processed images saved under: /mnt/bn/idl-data-cache/cz/data/OLAT_final/ori_OLAT/0089
+[Done] Processed images saved under: /mnt/bn/idl-data-cache/cz/data/OLAT_final/ori_OLAT/0088
+[Done] Processed images saved under: /mnt/bn/idl-data-cache/cz/data/OLAT_final/ori_OLAT/0057
+[Done] Processed images saved under: /mnt/bn/idl-data-cache/cz/data/OLAT_final/ori_OLAT/0070
