@@ -1,5 +1,7 @@
 # OLAT Data Processing Pipeline
 
+<img width="1385" alt="image" src="../assets/relit_portrait.png"/>
+
 This repository provides a data processing pipeline for OLAT (One-Light-At-a-Time) portrait data. It converts raw captures into processed OLAT images, synthesizes uniform-light composites for matting, generates alpha masks through an external matting system, and finally produces relit synthetic images under colored HDR environment lighting.
 
 The project is intended for research and dataset preparation workflows, especially for portrait relighting, matting, and synthetic data generation.
