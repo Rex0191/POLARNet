@@ -7,6 +7,15 @@ POLARNet predicts direction-aware OLAT lighting responses from a portrait image 
 > **Note**
 > Pretrained checkpoints are not bundled with this repository. Checkpoint distribution details will be added in a later update.
 
+
+## 🧪 Data Processing
+
+For OLAT data preparation, preprocessing, and intermediate asset generation, please see the dedicated guide:
+
+**[Go to the OLAT Data Processing README](./OLAT_data_processing/README.md)**
+
+That document covers the full processing workflow, required inputs, and step-by-step usage instructions.
+
 ---
 
 ## 📢 News
@@ -91,17 +100,6 @@ Before running training or inference, make sure the following paths are configur
 2. dataset path;
 3. input directories;
 4. output directories.
-
----
-
-## 🧪 Data Processing
-
-This repository also includes a separate data processing pipeline for OLAT data preparation.
-If you need to preprocess raw OLAT captures, generate intermediate assets, or prepare relighting data, please refer to the dedicated documentation below:
-
-- `OLAT_data_processing/README.md`
-
-That README describes the full processing workflow, required inputs, and step-by-step usage instructions for the data preparation pipeline.
 
 ---
 
