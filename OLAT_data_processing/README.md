@@ -388,17 +388,7 @@ The existing shell script suggests separate environments for different stages, f
 
 ---
 
-## Suggested Improvements
 
-For a cleaner open-source release, the following improvements would be helpful:
-
-- add a `requirements.txt` or `environment.yml`
-- move hard-coded paths in `pipeline.sh` to command-line arguments or a config file
-- document the expected dataset directory format more explicitly
-- provide example input / output visualizations
-- clarify differences between alternative script variants such as gamma / compatibility versions
-
----
 
 ## Acknowledgments
 
