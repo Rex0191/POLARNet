@@ -7,6 +7,8 @@ The project is intended for research and dataset preparation workflows, especial
 
 ## POLAR Dataset Download
 
+[Request access](https://docs.google.com/forms/d/e/1FAIpQLSeYgTIs89mpS1IGkKON4bp_nsq-BqZioAyCerJTt40Wh2MzcQ/viewform)
+
 [Baidu Netdisk 1](https://pan.baidu.com/s/1zJ9B9J-0Ls4qZEemFA2vag)
 
 [Baidu Netdisk 2](https://pan.baidu.com) (Uploading)
