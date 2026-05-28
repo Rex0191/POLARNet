@@ -13,7 +13,7 @@
     <a href="https://scholar.google.com/citations?user=yDEavdMAAAAJ&hl=zh-CN" target='_blank'>Xiaokang Yang</a><sup>1</sup>
     ·
     <a href="https://daodaofr.github.io/" target='_blank'>Yichao Yan</a><sup>1*</sup>
-    
+    <br>
     <br>
     <sup>1</sup>MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University  <sup>2</sup>PICO  
     <br>
