@@ -7,7 +7,9 @@ The project is intended for research and dataset preparation workflows, especial
 
 ## POLAR Dataset Download
 
-[Baidu Netdisk](https://pan.baidu.com/s/1zJ9B9J-0Ls4qZEemFA2vag)
+[Baidu Netdisk 1](https://pan.baidu.com/s/1zJ9B9J-0Ls4qZEemFA2vag)
+[Baidu Netdisk 2](https://pan.baidu.com) (Uploading)
+[Baidu Netdisk 3](https://pan.baidu.com) (Uploading)
 
 [Huggingface](https://huggingface.co/datasets/Rex0191/POLAR) (For Preview Only)
 
