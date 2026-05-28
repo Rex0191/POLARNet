@@ -94,6 +94,17 @@ Before running training or inference, make sure the following paths are configur
 
 ---
 
+## 🧪 Data Processing
+
+This repository also includes a separate data processing pipeline for OLAT data preparation.
+If you need to preprocess raw OLAT captures, generate intermediate assets, or prepare relighting data, please refer to the dedicated documentation below:
+
+- `OLAT_data_processing/README.md`
+
+That README describes the full processing workflow, required inputs, and step-by-step usage instructions for the data preparation pipeline.
+
+---
+
 ## 🚀 Usage
 
 This repository provides the main code and script entry points for POLARNet. Please inspect the included shell scripts and configuration files to match them with your local environment.
