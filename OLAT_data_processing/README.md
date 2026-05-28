@@ -4,6 +4,12 @@ This repository provides a data processing pipeline for OLAT (One-Light-At-a-Tim
 
 The project is intended for research and dataset preparation workflows, especially for portrait relighting, matting, and synthetic data generation.
 
+
+## POLAR Dataset Download
+
+[Baidu Netdisk](https://pan.baidu.com/s/1zJ9B9J-0Ls4qZEemFA2vag)
+[Huggingface](https://huggingface.co/datasets/Rex0191/POLAR) (For Preview Only)
+
 ---
 
 ## Overview
