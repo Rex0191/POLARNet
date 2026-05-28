@@ -13,7 +13,7 @@ The project is intended for research and dataset preparation workflows, especial
 
 [Baidu Netdisk 1](https://pan.baidu.com/s/1zJ9B9J-0Ls4qZEemFA2vag)
 
-[Baidu Netdisk 2](https://pan.baidu.com) (Uploading)
+[Baidu Netdisk 2](https://pan.baidu.com/s/1rBY_AmsQGlB8Lx_nj7UMgw) 
 
 [Baidu Netdisk 3](https://pan.baidu.com) (Uploading)
 
