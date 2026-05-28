@@ -1,4 +1,4 @@
-# 🧠 POLARNet
+# POLARNet
 
 Official implementation of **POLARNet**, a generative portrait relighting model built upon the POLAR OLAT data representation.
 
@@ -12,6 +12,15 @@ POLARNet predicts direction-aware OLAT lighting responses from a portrait input 
 
 - ✅ Code released.
 - 🚧 Pretrained checkpoints will be released soon.
+
+---
+
+## ✅ TODO
+
+- [ ] Release pretrained POLARNet checkpoints.
+- [ ] Add detailed inference instructions.
+- [ ] Add example input and output visualization.
+- [ ] Add training data preparation instructions.
 
 ---
 
@@ -130,14 +139,6 @@ Before running the script, please make sure that:
 
 ---
 
-## ✅ TODO
-
-- [ ] Release pretrained POLARNet checkpoints.
-- [ ] Add detailed inference instructions.
-- [ ] Add example input and output visualization.
-- [ ] Add training data preparation instructions.
-
----
 
 ## 📚 Citation
 
