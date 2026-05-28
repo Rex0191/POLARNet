@@ -1,3 +1,40 @@
+<h2 align="center"<strong>POLAR: A Portrait OLAT Dataset and Generative Framework for Illumination-Aware Face Modeling</strong></h2>
+  <p align="center">
+    Zhuo Chen<sup>1,2&#x2020;</sup>,</span>
+    ·
+    <a href='rex0191.github.io/' target='_blank'>Chengqun Yang</a><sup>1&#x2020;</sup>
+    ·
+    <a href="https://suzhuo.github.io/" target='_blank'>Zhuo Su</a><sup>2*</sup>
+    ·
+    <a href="https://g-1nonly.github.io/" target='_blank'>Jingnan Gao</a><sup>1</sup>
+    ·
+    Xiaoyuan Zhang<sup>2</sup>
+    ·
+    <a href="https://scholar.google.com/citations?user=yDEavdMAAAAJ&hl=zh-CN" target='_blank'>Xiaokang Yang</a><sup>1</sup>
+    ·
+    <a href="https://daodaofr.github.io/" target='_blank'>Yichao Yan</a><sup>1*</sup>
+    
+    <br>
+    <sup>1</sup>MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University  <sup>2</sup>PICO  
+    <br>
+    <strong>CVPR 2026 (Oral)</strong>
+    
+  </p>
+</p>
+<p align="center">
+  <a href='https://arxiv.org/abs/2512.13192'>
+    <img src='https://img.shields.io/badge/Arxiv-2503.15451-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
+  <a href='https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_POLAR_A_Portrait_OLAT_Dataset_and_Generative_Framework_for_Illumination-Aware_CVPR_2026_paper.pdf'>
+    <img src='https://img.shields.io/badge/Paper-PDF-blue?style=flat&logo=arXiv&logoColor=blue'></a>
+  <a href='https://rex0191.github.io/POLAR/'>
+    <img src='https://img.shields.io/badge/Project-Page-green?style=flat&logo=Google%20chrome&logoColor=green'></a>
+  <a href='https://github.com/Rex0191/POLARNet/blob/main/OLAT_data_processing/README.md#POLAR-Dataset-Download'>
+    <img src='https://img.shields.io/badge/Data-Download-yellow?style=flat&logo=huggingface&logoColor=yellow'></a>
+</p>
+
+<img width="1385" alt="image" src="assets/teaser.png"/>
+
+
 # POLARNet
 
 Official implementation of **POLARNet**, a generative portrait relighting framework built on the POLAR OLAT representation.
@@ -140,6 +177,3 @@ If you find this repository useful, please consider citing our work.
 
 ---
 
-## 📞 Contact
-
-For questions about setup, usage, or checkpoints, please open an issue in this repository.
