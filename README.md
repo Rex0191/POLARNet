@@ -2,7 +2,7 @@
   <p align="center">
     Zhuo Chen<sup>1,2&#x2020;</sup>,</span>
     ·
-    <a href='rex0191.github.io/' target='_blank'>Chengqun Yang</a><sup>1&#x2020;</sup>
+    <a href='https://rex0191.github.io/' target='_blank'>Chengqun Yang</a><sup>1&#x2020;</sup>
     ·
     <a href="https://suzhuo.github.io/" target='_blank'>Zhuo Su</a><sup>2*</sup>
     ·
