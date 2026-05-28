@@ -1,26 +1,27 @@
 # POLARNet
 
-Official implementation of **POLARNet**, a generative portrait relighting model built upon the POLAR OLAT data representation.
+Official implementation of **POLARNet**, a generative portrait relighting framework built on the POLAR OLAT representation.
 
-POLARNet predicts direction-aware OLAT lighting responses from a portrait input and can be used to synthesize realistic portrait relighting results under novel illumination. This repository provides the code, environment configuration, and scripts for running POLARNet.
+POLARNet predicts direction-aware OLAT lighting responses from a portrait image and enables realistic portrait relighting under novel illumination. This repository contains the source code, configuration files, and example scripts for environment setup, training, and inference.
 
-> **Note:** Model checkpoints are not included in the current release. We will upload the pretrained checkpoints in a future update.
+> **Note**
+> Pretrained checkpoints are not bundled with this repository. Checkpoint distribution details will be added in a later update.
 
 ---
 
 ## 📢 News
 
-- ✅ Code released.
-- 🚧 Pretrained checkpoints will be released soon.
+- Codebase released.
+- Pretrained checkpoint release information will be added later.
 
 ---
 
 ## ✅ TODO
 
 - [ ] Release pretrained POLARNet checkpoints.
-- [ ] Add detailed inference instructions.
-- [ ] Add example input and output visualization.
-- [ ] Add training data preparation instructions.
+- [ ] Add more detailed inference instructions.
+- [ ] Provide example input/output visualizations.
+- [ ] Expand dataset preparation documentation.
 
 ---
 
@@ -28,55 +29,49 @@ POLARNet predicts direction-aware OLAT lighting responses from a portrait input 
 
 ```text
 .
-├── scripts / shell files         # Training and inference scripts
-├── configs                       # Configuration files
-├── src / project modules          # Core implementation
-├── requirements.txt              # Python dependencies
+├── configs/                     # Configuration files
+├── scripts/                     # Training and inference scripts
+├── src/                         # Core implementation
+├── requirements.txt             # Python dependencies
 └── README.md
 ```
 
-Some folders and files are intentionally excluded from this repository, as explained below.
+Some large or machine-specific assets are intentionally excluded from version control.
 
 ---
 
-## 📦 Missing Files and Folders
+## 🤖 Model Dependencies
 
-### `hugging_face/` Not Included
+Some third-party model assets required by the pipeline are not stored in this repository.
+They will be downloaded automatically the first time you run the relevant script.
 
-The `hugging_face/` folder is **not included** in this repository.
+No manual Hugging Face cache setup is required in the README. If your environment has custom cache or storage requirements, you may still configure them locally as needed.
 
-This folder usually contains local Hugging Face caches, such as pretrained model weights, tokenizer files, or other downloaded assets. These files are machine-specific and can be automatically downloaded or manually placed by users.
+---
 
-👉 Please modify the following line in `olatlight.sh` to point to your own local Hugging Face cache path:
+## 📥 Checkpoints
 
-```shell
-export HF_HOME=/path/to/your/hugging_face
+Download the pretrained OLAT checkpoint from the link below and place it in the following directory:
+
+```text
+POLARNet/examples/inference/ckpts/olat/
 ```
 
-If you do not have a local cache, you may set `HF_HOME` to any writable directory where Hugging Face models can be downloaded.
+Checkpoint download link:
 
----
+- `YOUR_CHECKPOINT_DOWNLOAD_LINK_HERE`
 
-### `.ckpts` / Checkpoints Not Included
+After downloading, ensure that the checkpoint file is stored under `POLARNet/examples/inference/ckpts/olat/`. If this directory does not exist, create it manually before running inference.
 
-Pretrained checkpoints are **not included** in the current repository due to storage limitations.
-
-🚧 We will upload the official POLARNet checkpoints in a future release. Once available, we will update this README with:
-
-- checkpoint download links;
-- expected directory structure;
-- inference commands;
-- model version information.
-
-Before the checkpoints are released, users may still inspect the codebase, prepare the environment, and adapt the training or inference scripts as needed.
+If your local script or configuration expects a specific checkpoint filename, please keep the filename consistent or update the path in the corresponding script.
 
 ---
 
 ## 🛠️ Environment Setup
 
-We recommend using Conda to create an isolated Python environment.
+We recommend creating a dedicated Conda environment:
 
-```shell
+```bash
 conda create -n polarnet python=3.10 -y
 conda activate polarnet
 
@@ -84,61 +79,40 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-If your environment requires a specific CUDA / PyTorch version, please install the corresponding PyTorch build before installing the remaining dependencies.
+If your setup requires a specific CUDA or PyTorch build, install the matching PyTorch version first, then install the remaining dependencies.
 
 ---
 
-## 🤗 Hugging Face Cache Setup
+## 📌 Preparing Local Paths
 
-Before running training or inference scripts, please set the Hugging Face cache path:
+Before running training or inference, make sure the following paths are configured correctly in your scripts or configs:
 
-```shell
-export HF_HOME=/path/to/your/hugging_face
-```
-
-Alternatively, you can modify the corresponding line in the provided shell script:
-
-```shell
-export HF_HOME=Your_path/hugging_face
-```
-
-Make sure the path is writable and has enough disk space for pretrained model files.
-
----
-
-## 📥 Checkpoint Preparation
-
-The official checkpoints are not yet included in this release.
-
-After the checkpoints are released, place them under the expected checkpoint directory. For example:
-
-```text
-examples/inference/ckpts/polarnet.ckpt
-```
-
-The exact checkpoint path and script arguments will be updated once the pretrained models are available.
+1. checkpoint path;
+2. dataset path;
+3. input directories;
+4. output directories.
 
 ---
 
 ## 🚀 Usage
 
-The current repository provides the code and scripts required by POLARNet. Please check the provided shell scripts for training or inference entry points.
+This repository provides the main code and script entry points for POLARNet. Please inspect the included shell scripts and configuration files to match them with your local environment.
 
 For example:
 
-```shell
+```bash
+cd examples/inference/olat/
 bash olatlight.sh
 ```
 
-Before running the script, please make sure that:
+Before running a script, confirm that:
 
-1. the environment has been correctly installed;
-2. `HF_HOME` points to a valid local path;
-3. the required checkpoints are available;
-4. dataset and input paths in the script are correctly configured.
+1. the Python environment has been installed successfully;
+2. required checkpoints are available locally;
+3. dataset and input paths are set properly;
+4. output paths are configured as expected.
 
 ---
-
 
 ## 📚 Citation
 
@@ -154,8 +128,6 @@ If you find this repository useful, please consider citing our work.
     pages     = {28871-28881}
 }
 ```
-
-The citation entry will be updated after the paper information is finalized.
 
 ---
 
