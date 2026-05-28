@@ -14,7 +14,6 @@
     ·
     <a href="https://daodaofr.github.io/" target='_blank'>Yichao Yan</a><sup>1*</sup>
     <br>
-    <br>
     <sup>1</sup>MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University  <sup>2</sup>PICO  
     <br>
     <strong>CVPR 2026 (Oral)</strong>
