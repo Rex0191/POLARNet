@@ -145,11 +145,13 @@ Before running the script, please make sure that:
 If you find this repository useful, please consider citing our work.
 
 ```bibtex
-@article{polarnet2026,
-  title     = {POLARNet},
-  author    = {Author Names},
-  journal   = {To appear},
-  year      = {2026}
+@InProceedings{Chen_2026_CVPR,
+    author    = {Chen, Zhuo and Yang, Chengqun and Su, Zhuo and Lv, Zheng and Gao, Jingnan and Zhang, Xiaoyuan and Yang, Xiaokang and Yan, Yichao},
+    title     = {POLAR: A Portrait OLAT Dataset and Generative Framework for Illumination-Aware Face Modeling},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {28871-28881}
 }
 ```
 
