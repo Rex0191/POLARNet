@@ -23,6 +23,10 @@ class LBMConfig(ModelConfig):
         latent_loss_type (str):
             Loss type to use. Defaults to "l2". Choices are "l2", "l1"
 
+        latent_loss_weight (float):
+            Multiplicative weight for the latent velocity loss. Defaults to 1.0.
+            Set to 0.0 to disable the latent term entirely.
+
         pixel_loss_type (str):
             Pixel loss type to use. Defaults to "l2". Choices are "l2", "l1", "lpips"
 
@@ -31,7 +35,7 @@ class LBMConfig(ModelConfig):
             The image will be cropped to this size to reduce decoding computation cost. Defaults to 512
 
         pixel_loss_weight (float):
-            Weight of the pixel loss. Defaults to 0.0
+            Multiplicative weight of the pixel loss. Defaults to 0.0
 
         timestep_sampling (str):
             Timestep sampling to use. Defaults to "uniform". Choices are "uniform"

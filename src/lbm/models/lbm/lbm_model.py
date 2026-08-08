@@ -93,40 +93,85 @@ class LBMModel(BaseModel):
         if self.conditioner is not None:
             self.conditioner.on_fit_start(device=device, *args, **kwargs)
     
-    # --- 放在 LBMModel 类里（和其它 helper 同级） ---
-    def _phi(self, sigma: torch.Tensor, kind: str = "ease_in", gamma: float = 1.8, a: float = 3.0):
-        # sigma \in [0,1]，返回 s \in [0,1]
+    def _phi(
+        self,
+        sigma: torch.Tensor,
+        kind: str = "ease_in",
+        gamma: float = 1.8,
+        a: float = 3.0,
+    ):
+        """Map scheduler sigma ∈ [0, 1] to bridge time s ∈ [0, 1]."""
         if kind == "ease_in":
             return sigma.clamp(0, 1) ** gamma
         if kind == "ease_out":
-            s = 1 - (1 - sigma.clamp(0, 1)) ** gamma
-            return s
+            return 1 - (1 - sigma.clamp(0, 1)) ** gamma
         if kind == "s":
             return torch.sigmoid(a * (2 * sigma.clamp(0, 1) - 1))
         return sigma
 
-    def _make_sigma_map(self, batch: dict, latent_hw: tuple, base_sigma: float) -> torch.Tensor:
+    def _resolve_mask(self, batch: dict) -> Optional[torch.Tensor]:
+        """Prefer configured mask_key, fall back to common 'mask' key."""
+        if self.mask_key is not None and self.mask_key in batch:
+            return batch[self.mask_key]
+        if "mask" in batch:
+            return batch["mask"]
+        return None
+
+    def _make_sigma_map(
+        self, batch: dict, latent_hw: tuple, base_sigma: float
+    ) -> torch.Tensor:
         """
-        生成一个简单的异方差噪声强度图（latent 尺度）。前景/边界略增噪声。
-        - batch["mask"]: [B,1,H,W] in [0,1]
-        - latent_hw: (h, w) for latent
+        Heteroscedastic bridge-noise scale in latent space.
+        Slightly raises noise on foreground and mask edges when a mask is present.
         """
-        device = next(self.parameters()).device
-        dtype  = torch.float32
+        device = batch[self.source_key].device
+        dtype = torch.float32
         B = batch[self.source_key].shape[0]
 
-        # 缺 mask 就用全 0
-        if "mask" not in batch:
-            return torch.full((B, 1, *latent_hw), base_sigma, device=device, dtype=dtype)
+        mask = self._resolve_mask(batch)
+        if mask is None:
+            return torch.full(
+                (B, 1, *latent_hw), base_sigma, device=device, dtype=dtype
+            )
 
         import torch.nn.functional as F
-        m = batch["mask"].float()           # [B,1,H,W] in [0,1]
+
+        m = mask.float()
+        if m.ndim == 3:
+            m = m.unsqueeze(1)
+        m = m[:, :1]
         m_lat = F.interpolate(m, size=latent_hw, mode="nearest")
-        # 边界近似（Sobel 可更准，这里用AvgPool近似）
         edge = torch.abs(m_lat - F.avg_pool2d(m_lat, 3, 1, 1))
-        # 系数：前景 +0.5、边界 +0.8（你可以在 yaml 里做成可配）
         scale = 1.0 + 0.5 * m_lat + 0.8 * edge
-        return (base_sigma * scale).to(device)
+        return (base_sigma * scale).to(device=device, dtype=dtype)
+
+    @staticmethod
+    def _masked_mean(
+        residual: torch.Tensor, valid_mask: torch.Tensor, p: float = 2.0
+    ) -> torch.Tensor:
+        """
+        Mean of |residual|^p over valid entries only (per-batch).
+
+        Avoids diluting the loss when invalid regions dominate the spatial grid.
+        residual / valid_mask: [B, C, H, W] (mask may be broadcastable).
+        Returns: [B]
+        """
+        mask = valid_mask.float()
+        if mask.shape[1] == 1 and residual.shape[1] != 1:
+            mask = mask.expand_as(residual)
+        elif mask.shape != residual.shape:
+            mask = mask.expand_as(residual)
+
+        if p == 1.0:
+            err = residual.abs()
+        elif p == 2.0:
+            err = residual.pow(2)
+        else:
+            err = residual.abs().pow(p)
+
+        err = err * mask
+        denom = mask.reshape(residual.shape[0], -1).sum(dim=1).clamp_min(1.0)
+        return err.reshape(residual.shape[0], -1).sum(dim=1) / denom
 
 
     def forward(self, batch: Dict[str, Any], step=0, batch_idx=0, *args, **kwargs):
@@ -174,39 +219,31 @@ class LBMModel(BaseModel):
 
         # Sample a timestep
         timestep = self._timestep_sampling(n_samples=z.shape[0], device=z.device)
-        sigmas = None
 
-        # Create interpolant
-        # sigmas = self._get_sigmas(
-        #     self.training_noise_scheduler, timestep, n_dim=4, device=z.device
-        # )
-        # noisy_sample = (
-        #     sigmas * z_source
-        #     + (1.0 - sigmas) * z
-        #     + self.bridge_noise_sigma
-        #     * (sigmas * (1.0 - sigmas)) ** 0.5
-        #     * torch.randn_like(z)
-        # )
-        # 1) 取 scheduler 的 sigma（对应 t）
-        sigmas = self._get_sigmas(self.training_noise_scheduler, timestep, n_dim=4, device=z.device)
-
-        # 2) 时间重参数：ease-in（Delighting 推荐）
-        #    你可以把 kind/gamma 做成 yaml 超参，这里先写死 gamma=1.8
+        # Scheduler sigma and bridge time s = phi(sigma). Path, noise, and x0
+        # recovery must all use the same s (not raw sigma) or pixel loss is biased.
+        sigmas = self._get_sigmas(
+            self.training_noise_scheduler, timestep, n_dim=4, device=z.device
+        )
         s = self._phi(sigmas, kind="ease_in", gamma=1.8)
 
-        # 3) 生成异方差噪声强度图（latent 尺度），前景/边界略增噪声
-        sigma_map = self._make_sigma_map(batch, latent_hw=z.shape[-2:], base_sigma=float(self.bridge_noise_sigma))
+        sigma_map = self._make_sigma_map(
+            batch,
+            latent_hw=z.shape[-2:],
+            base_sigma=float(self.bridge_noise_sigma),
+        )
 
-        # 4) 构造插值 + 噪声（注意噪声项里用 s*(1-s)）
-        noisy_sample = s * z_source + (1.0 - s) * z \
-                    + sigma_map * (s * (1.0 - s)).sqrt() * torch.randn_like(z)
-
+        # Brownian bridge: s=1 → source, s=0 → target. Velocity target = z_source - z.
+        noisy_sample = (
+            s * z_source
+            + (1.0 - s) * z
+            + sigma_map * (s * (1.0 - s)).sqrt() * torch.randn_like(z)
+        )
 
         for i, t in enumerate(timestep):
             if t.item() == self.training_noise_scheduler.timesteps[0]:
                 noisy_sample[i] = z_source[i]
 
-        # Predict noise level using denoiser
         prediction = self.denoiser(
             sample=noisy_sample,
             timestep=timestep,
@@ -216,142 +253,138 @@ class LBMModel(BaseModel):
         )
 
         target = z_source - z
-        denoised_sample = noisy_sample - prediction * sigmas
+        # Reconstruct target latent with bridge time s (must match path construction).
+        denoised_sample = self._predicted_x_0(
+            model_output=prediction,
+            sample=noisy_sample,
+            bridge_time=s,
+        )
         target_pixels = batch[self.target_key]
 
-        # Compute loss
+        # --- losses ---
         if self.latent_loss_weight > 0:
-            loss = self.latent_loss(prediction, target.detach(), valid_mask_for_latent)
-            latent_recon_loss = loss.mean()
-
+            latent_recon = self.latent_loss(
+                prediction, target.detach(), valid_mask_for_latent
+            )
+            loss = self.latent_loss_weight * latent_recon
+            latent_recon_loss = latent_recon.mean()
         else:
-            loss = torch.zeros(z.shape[0], device=z.device)
-            latent_recon_loss = torch.zeros_like(loss)
+            loss = torch.zeros(z.shape[0], device=z.device, dtype=prediction.dtype)
+            latent_recon_loss = loss.detach()
 
         if self.pixel_loss_weight > 0:
-            denoised_sample = self._predicted_x_0(
-                model_output=prediction,
-                sample=noisy_sample,
-                sigmas=sigmas,
-            )
-            pixel_loss = self.pixel_loss(
+            pixel_recon = self.pixel_loss(
                 denoised_sample, target_pixels.detach(), valid_mask
             )
-            loss += self.pixel_loss_weight * pixel_loss
-
+            # pixel_recon is [B]; broadcast-safe with weighted latent term
+            loss = loss + self.pixel_loss_weight * pixel_recon
+            pixel_loss = pixel_recon
         else:
             pixel_loss = torch.zeros_like(latent_recon_loss)
 
         return {
             "loss": loss.mean(),
             "latent_recon_loss": latent_recon_loss,
-            "pixel_recon_loss": pixel_loss.mean(),
+            "pixel_recon_loss": pixel_loss.mean()
+            if torch.is_tensor(pixel_loss)
+            else pixel_loss,
             "predicted_hr": denoised_sample,
             "noisy_sample": noisy_sample,
         }
 
     def latent_loss(self, prediction, model_input, valid_latent_mask):
+        residual = prediction - model_input
         if self.latent_loss_type == "l2":
-            return torch.mean(
-                (
-                    (prediction * valid_latent_mask - model_input * valid_latent_mask)
-                    ** 2
-                ).reshape(model_input.shape[0], -1),
-                1,
-            )
-        elif self.latent_loss_type == "l1":
-            return torch.mean(
-                torch.abs(
-                    prediction * valid_latent_mask - model_input * valid_latent_mask
-                ).reshape(model_input.shape[0], -1),
-                1,
-            )
-        else:
-            raise NotImplementedError(
-                f"Loss type {self.latent_loss_type} not implemented"
-            )
+            return self._masked_mean(residual, valid_latent_mask, p=2.0)
+        if self.latent_loss_type == "l1":
+            return self._masked_mean(residual, valid_latent_mask, p=1.0)
+        raise NotImplementedError(
+            f"Loss type {self.latent_loss_type} not implemented"
+        )
 
     def pixel_loss(self, prediction, model_input, valid_mask):
+        """
+        Random-crop decoded reconstruction vs target pixels.
 
-        latent_crop = self.pixel_loss_max_size // self.vae.downsampling_factor
+        L1/L2: masked mean over valid pixels only.
+        LPIPS: blend invalid regions with the target so the metric does not
+        score artificial black mask holes / edges.
+        """
+        down = self.vae.downsampling_factor
+        latent_crop = self.pixel_loss_max_size // down
         input_crop = self.pixel_loss_max_size
 
-        crop_h = max((prediction.shape[2] - latent_crop), 0)
-        crop_w = max((prediction.shape[3] - latent_crop), 0)
+        _, _, lh, lw = prediction.shape
+        _, _, ih, iw = model_input.shape
 
-        input_crop_h = max((model_input.shape[2] - self.pixel_loss_max_size), 0)
-        input_crop_w = max((model_input.shape[3] - self.pixel_loss_max_size), 0)
-
-        # image random cropping
-        if crop_h == 0:
-            offset_h = 0
-        else:
-            offset_h = torch.randint(0, crop_h, (1,)).item()
-
-        if crop_w == 0:
-            offset_w = 0
-        else:
-            offset_w = torch.randint(0, crop_w, (1,)).item()
-        input_offset_h = offset_h * self.vae.downsampling_factor
-        input_offset_w = offset_w * self.vae.downsampling_factor
+        max_off_h = max(lh - latent_crop, 0)
+        max_off_w = max(lw - latent_crop, 0)
+        offset_h = int(torch.randint(0, max_off_h + 1, (1,)).item()) if max_off_h > 0 else 0
+        offset_w = int(torch.randint(0, max_off_w + 1, (1,)).item()) if max_off_w > 0 else 0
 
         prediction = prediction[
             :,
             :,
-            crop_h
-            - offset_h : min(crop_h - offset_h + latent_crop, prediction.shape[2]),
-            crop_w
-            - offset_w : min(crop_w - offset_w + latent_crop, prediction.shape[3]),
+            offset_h : offset_h + min(latent_crop, lh),
+            offset_w : offset_w + min(latent_crop, lw),
         ]
-
+        input_offset_h = offset_h * down
+        input_offset_w = offset_w * down
         model_input = model_input[
             :,
             :,
-            input_crop_h
-            - input_offset_h : min(
-                input_crop_h - input_offset_h + input_crop, model_input.shape[2]
-            ),
-            input_crop_w
-            - input_offset_w : min(
-                input_crop_w - input_offset_w + input_crop, model_input.shape[3]
-            ),
+            input_offset_h : input_offset_h + min(input_crop, ih - input_offset_h),
+            input_offset_w : input_offset_w + min(input_crop, iw - input_offset_w),
         ]
-
         valid_mask = valid_mask[
             :,
             :,
-            input_crop_h
-            - input_offset_h : min(
-                input_crop_h - input_offset_h + input_crop, valid_mask.shape[2]
-            ),
-            input_crop_w
-            - input_offset_w : min(
-                input_crop_w - input_offset_w + input_crop, valid_mask.shape[3]
-            ),
-        ]
+            input_offset_h : input_offset_h
+            + min(input_crop, valid_mask.shape[2] - input_offset_h),
+            input_offset_w : input_offset_w
+            + min(input_crop, valid_mask.shape[3] - input_offset_w),
+        ].float()
+
+        # Align spatial sizes if crop rounding diverged
+        h = min(model_input.shape[2], valid_mask.shape[2])
+        w = min(model_input.shape[3], valid_mask.shape[3])
+        model_input = model_input[:, :, :h, :w]
+        valid_mask = valid_mask[:, :, :h, :w]
+        if valid_mask.shape[1] == 1:
+            valid_mask = valid_mask.expand(-1, model_input.shape[1], -1, -1)
 
         decoded_prediction = self.vae.decode(prediction).clamp(-1, 1)
+        # Match decoded spatial size to the pixel crop
+        if decoded_prediction.shape[-2:] != model_input.shape[-2:]:
+            decoded_prediction = torch.nn.functional.interpolate(
+                decoded_prediction,
+                size=model_input.shape[-2:],
+                mode="bilinear",
+                align_corners=False,
+            )
 
         if self.pixel_loss_type == "l2":
-            return torch.mean(
-                (
-                    (decoded_prediction * valid_mask - model_input * valid_mask) ** 2
-                ).reshape(model_input.shape[0], -1),
-                1,
+            return self._masked_mean(
+                decoded_prediction - model_input, valid_mask, p=2.0
             )
 
-        elif self.pixel_loss_type == "l1":
-            return torch.mean(
-                torch.abs(
-                    decoded_prediction * valid_mask - model_input * valid_mask
-                ).reshape(model_input.shape[0], -1),
-                1,
+        if self.pixel_loss_type == "l1":
+            return self._masked_mean(
+                decoded_prediction - model_input, valid_mask, p=1.0
             )
 
-        elif self.pixel_loss_type == "lpips":
-            return self.lpips_loss(
-                decoded_prediction * valid_mask, model_input * valid_mask
-            ).mean()
+        if self.pixel_loss_type == "lpips":
+            # Fill invalid with GT so LPIPS only sees FG discrepancies (no black holes).
+            pred_for_lpips = (
+                decoded_prediction * valid_mask + model_input * (1.0 - valid_mask)
+            )
+            lp = self.lpips_loss(pred_for_lpips, model_input)
+            # lpips returns [B,1,1,1] (or similar) — keep per-sample vector
+            return lp.reshape(lp.shape[0])
+
+        raise NotImplementedError(
+            f"Pixel loss type {self.pixel_loss_type} not implemented"
+        )
 
     def _get_conditioning(
         self,
@@ -410,13 +443,21 @@ class LBMModel(BaseModel):
         self,
         model_output,
         sample,
+        bridge_time=None,
         sigmas=None,
     ):
         """
-        Predict x_0, the orinal denoised sample, using the model output and the timesteps depending on the prediction type.
+        Reconstruct the target latent from the bridge sample.
+
+        For path x_s = s * z_src + (1-s) * z and velocity v = z_src - z:
+            x_s - s * v = z
+        so bridge_time must be the same s used to build the noisy sample.
+        `sigmas` is accepted as a deprecated alias for bridge_time.
         """
-        pred_x_0 = sample - model_output * sigmas
-        return pred_x_0
+        t = bridge_time if bridge_time is not None else sigmas
+        if t is None:
+            raise ValueError("bridge_time (or sigmas) is required to reconstruct x_0")
+        return sample - model_output * t
 
     def _get_sigmas(
         self, scheduler, timesteps, n_dim=4, dtype=torch.float32, device="cpu"
@@ -500,9 +541,10 @@ class LBMModel(BaseModel):
                 sigmas = self._get_sigmas(
                     self.sampling_noise_scheduler, timestep, n_dim=4, device=z.device
                 )
-                print("sigmas:",sigmas)
+                # Match training bridge time reparameterization
+                s = self._phi(sigmas, kind="ease_in", gamma=1.8)
                 sample = sample + self.bridge_noise_sigma * (
-                    sigmas * (1.0 - sigmas)
+                    s * (1.0 - s)
                 ) ** 0.5 * torch.randn_like(sample)
                 sample = sample.to(z.dtype)
 
