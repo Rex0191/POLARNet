@@ -63,14 +63,7 @@ That document covers the full processing workflow, required inputs, and step-by-
 
 ---
 
-## ✅ TODO
 
-- [ ] Release pretrained POLARNet checkpoints.
-- [ ] Add more detailed inference instructions.
-- [ ] Provide example input/output visualizations.
-- [ ] Expand dataset preparation documentation.
-
----
 
 ## 📁 Repository Structure
 
