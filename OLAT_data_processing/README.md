@@ -15,7 +15,7 @@ The project is intended for research and dataset preparation workflows, especial
 
 [Baidu Netdisk 2](https://pan.baidu.com/s/1rBY_AmsQGlB8Lx_nj7UMgw) 
 
-[Baidu Netdisk 3](https://pan.baidu.com) (Uploading)
+For various reasons, further uploads are on hold. Links 1 and 2 provide complete data for over 50 IDs.
 
 [Huggingface](https://huggingface.co/datasets/Rex0191/POLAR) (For Preview Only)
 
