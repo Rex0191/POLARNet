@@ -59,7 +59,6 @@ That document covers the full processing workflow, required inputs, and step-by-
 ## 📢 News
 
 - Codebase released.
-- Pretrained checkpoint release information will be added later.
 
 ---
 
@@ -89,7 +88,7 @@ No manual Hugging Face cache setup is required in the README. If your environmen
 
 ---
 
-## 📥 Checkpoints
+<!-## 📥 Checkpoints
 
 Download the pretrained OLAT checkpoint from the link below and place it in the following directory:
 
@@ -105,7 +104,7 @@ After downloading, ensure that the checkpoint file is stored under `POLARNet/exa
 
 If your local script or configuration expects a specific checkpoint filename, please keep the filename consistent or update the path in the corresponding script.
 
----
+--->
 
 ## 🛠️ Environment Setup
 
@@ -123,7 +122,7 @@ If your setup requires a specific CUDA or PyTorch build, install the matching Py
 
 ---
 
-## 📌 Preparing Local Paths
+<!## 📌 Preparing Local Paths
 
 Before running training or inference, make sure the following paths are configured correctly in your scripts or configs:
 
@@ -152,7 +151,7 @@ Before running a script, confirm that:
 3. dataset and input paths are set properly;
 4. output paths are configured as expected.
 
----
+--->
 
 ## 📚 Citation
 
